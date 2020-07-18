@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap 4 and jquery/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-11 mx-auto my-5">
+                <form action="" class="my-5" id="form">
+                    <div class="feedback text-center hide">
+                        Calculating ...
+                    </div>
+                    <h3 class="text-center">Get a Free Course</h3>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control customer-box" placeholder="Customer Name">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-book"></i></span>
+                        </div>
+                        <input type="text" class="form-control course-box" placeholder="Course">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+                        </div>
+                        <input type="text" class="form-control author-box" placeholder="Author">
+                    </div>
+
+                    <button type="submit" class="btn submit-btn btn-block">SUBMIT</button>
+                </form>
+                <div class="loading-bar text-center hide my-5">
+                    <span><i class="fa fa-sync-alt fa-spin fa-10x" aria-hidden="true"></i></span>
+                </div>
+                <div class="row customer-list">
+                    <div class="col-11 col-md-6 col-lg-4 mx-auto my-3">
+                        <div class="card">
+                            <img src="img/IMG-20160709-WA0002.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="text-capitalize mb-3"><span class="badge badge-warning ">Name:</span><span
+                                        class="ml-2" id="customer-name">M.Shahrul Alif</span></h6>
+                                <h6 class="text-capitalize my-3"><span class="badge badge-success">Course:</span><span
+                                        class="ml-2" id="course-name">Computer Engineering</span>
+                                </h6>
+                                <h6 class="text-capitalize mt-3"><span class="badge badge-danger">Author:</span><span
+                                        class="ml-2" id="author-name">M.Shahrul Alif</span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="bootstrap 4 and jquery/jquery-3.3.1.js"></script>
+    <script src="bootstrap 4 and jquery/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
